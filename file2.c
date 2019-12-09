@@ -1,10 +1,8 @@
-for loop:	
-syn:
-for(initialization;condition;inc/dec)	
-   statement;   
-for(initialization;condition;inc/dec)
+#include<stdio.h>
+int main()
 {
-statement-1;
-statement-2;
-........statement-x;	
-}   
+long long int x=10235567778888;
+printf("x=%lld",x);
+printf("\n &x=a%u" ,&x);
+return 0;	
+}
